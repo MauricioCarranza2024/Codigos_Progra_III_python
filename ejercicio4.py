@@ -32,6 +32,8 @@ class Dispositivos:
         print(f"Origen: {self.origen}")
 
 
+
+
 def crear_dispositivos():
     dispositivos = [
         Dispositivos("Celular", "X1", 6.5, 128, "Snapdragon 888", 8, 300.0),
@@ -41,9 +43,11 @@ def crear_dispositivos():
     return dispositivos
 
 
+
 def mostrar_dispositivos(dispositivos):
     for dispositivo in dispositivos:
         dispositivo.mostrar_informacion()
+
 
 
 if __name__ == "__main__":
