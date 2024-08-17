@@ -31,7 +31,7 @@ class Dispositivos:
         print(f"Precio de Venta: ${self.precio_venta:.2f}")
         print(f"Origen: {self.origen}")
 
-# Crear una lista de dispositivos electrónicos
+
 def crear_dispositivos():
     dispositivos = [
         Dispositivos("Celular", "X1", 6.5, 128, "Snapdragon 888", 8, 300.0),
@@ -40,12 +40,12 @@ def crear_dispositivos():
     ]
     return dispositivos
 
-# Mostrar información de todos los dispositivos
+
 def mostrar_dispositivos(dispositivos):
     for dispositivo in dispositivos:
         dispositivo.mostrar_informacion()
 
-# Ejecución del código
+
 if __name__ == "__main__":
     dispositivos = crear_dispositivos()
     mostrar_dispositivos(dispositivos)
